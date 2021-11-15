@@ -13,7 +13,7 @@
 #include "PaletteManager.hpp"
 
 GameBoy::GameBoy()
-:ROM("ROMS/Super Mario Land (World) (Rev 1).gb")
+:ROM("ROMS/Your_ROM_File.gb")
 {
     PaletteManager::LoadPalettes();
     
