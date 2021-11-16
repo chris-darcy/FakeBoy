@@ -1,5 +1,5 @@
 # FakeBoy
-A repository for the development of a GameBoy emulator in C++ 17 and OpenGL (Audio is WIP).
+A repository for the development of a DMG GameBoy emulator in C++ 17 and OpenGL (Audio is WIP).
 
 ## Dependencies
 - GLFW
