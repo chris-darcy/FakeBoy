@@ -58,3 +58,6 @@ _deps
 # Build Folder
 build
 [Bb][Uu][Ii][Ll][Dd]
+
+deps/*
+!deps/blank.keep
