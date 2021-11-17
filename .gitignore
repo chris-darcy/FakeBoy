@@ -1,3 +1,5 @@
+.DS_Store
+
 .metadata/*
 
 .vscode/*
@@ -61,3 +63,6 @@ build
 
 deps/*
 !deps/blank.keep
+
+ROMS/*
+!ROMS/blank.keep

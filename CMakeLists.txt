@@ -20,8 +20,13 @@ target_include_directories(${PROJECT_NAME} PUBLIC ${OPENGL_INCLUDE_DIR})
 target_link_libraries(${PROJECT_NAME} ${OPENGL_LIBRARIES})
 
 # GLFW
-add_subdirectory(deps/glfw-3.3.5)
-target_include_directories(${PROJECT_NAME} PUBLIC deps/glfw-3.3.5/include)
-target_link_directories(${PROJECT_NAME} PUBLIC deps/glfw-3.3.5/src)
+add_subdirectory(deps/glfw)
+target_include_directories(${PROJECT_NAME} PUBLIC deps/glfw/include)
+target_link_directories(${PROJECT_NAME} PUBLIC deps/glfw/src)
 target_link_libraries(${PROJECT_NAME} glfw)
 
+# PORTAUDIO 
+add_subdirectory(deps/portaudio)
+target_include_directories(${PROJECT_NAME} PUBLIC deps/portaudio/include)
+target_link_directories(${PROJECT_NAME} PUBLIC deps/portaudio/src/common)
+target_link_libraries(${PROJECT_NAME} PortAudio)
